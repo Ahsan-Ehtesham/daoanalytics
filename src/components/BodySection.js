@@ -1,14 +1,14 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 // import { Link} from "react-router-dom";
-import PropTypes from "prop-types";
-import { useHistory } from "react-router";
+// import PropTypes from "prop-types";
+// import { useHistory } from "react-router";
 
 const BodySection = (props) => {
-  const history = useHistory();
+  // const history = useHistory();
   // history.go(0)
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "/assets/js/main.js";
+    script.src = "/js/script.js";
     script.async = true;
     document.body.appendChild(script);
     return () => {
