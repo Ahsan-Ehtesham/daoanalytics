@@ -1,6 +1,6 @@
 $primary-color: white;
-$secondary-color: #00506C;
-$third-color: #5DB6D6;
+$secondary-color: #00506c;
+$third-color: #5db6d6;
 
 body {
   font-size: 0.875rem;
@@ -143,10 +143,9 @@ body {
      * Body
      */
 
-#myChart{
+#myChart {
   width: 600px;
   height: 400px;
-  background-color: $secondary-color;
 }
 
 // .header {
@@ -446,3 +445,72 @@ body {
 //     }
 //   }
 // }
+
+.card-box {
+  position: relative;
+  color: #fff;
+  padding: 20px 10px 40px;
+  margin: 20px 0px;
+  &:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+    .icon i {
+      font-size: 100px;
+      transition: 1s;
+      -webkit-transition: 1s;
+    }
+  }
+  .inner {
+    padding: 5px 10px 0 10px;
+  }
+
+  h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+  }
+  .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+.card-box:hover .card-box-footer {
+  background: rgba(0, 0, 0, 0.3);
+}
+.bg-blue {
+  background-color: #00c0ef !important;
+}
+.bg-green {
+  background-color: #00a65a !important;
+}
+.bg-orange {
+  background-color: #f39c12 !important;
+}
+.bg-red {
+  background-color: #d9534f !important;
+}

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 // import { Link} from "react-router-dom";
 // import PropTypes from "prop-types";
 // import { useHistory } from "react-router";
-
 const BodySection = (props) => {
   // const history = useHistory();
   // history.go(0)
@@ -17,6 +16,62 @@ const BodySection = (props) => {
   }, []);
   return (
     <div>
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card-box bg-blue">
+                    <div class="inner">
+                        <h3> 13436 </h3>
+                        <p> Student Strength </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="card-box bg-green">
+                    <div class="inner">
+                        <h3> ₹185358 </h3>
+                        <p> Today’s Collection </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card-box bg-orange">
+                    <div class="inner">
+                        <h3> 5464 </h3>
+                        <p> New Admissions </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 boxes">
+                <div class="card-box bg-red">
+                    <div class="inner">
+                        <h3> 723 </h3>
+                        <p> Faculty Strength </p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      </section>  
       <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div className="my-4 w-100" id="myChart"></div>
         <h2>Section title</h2>
@@ -148,6 +203,7 @@ const BodySection = (props) => {
           </table>
         </div>
       </section>
+      
     </div>
   );
 };
