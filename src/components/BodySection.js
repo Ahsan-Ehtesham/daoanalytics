@@ -16,194 +16,102 @@ const BodySection = (props) => {
   }, []);
   return (
     <div>
-      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="card-box bg-blue">
-                    <div class="inner">
-                        <h3> 13436 </h3>
-                        <p> Student Strength </p>
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3">
+        <div className="container">
+          <div className="row">
+            {props.rates.map((rate) => {
+              return (
+                <div className="col-lg-3 col-sm-6">
+                  <div className="card-box">
+                    <div className="inner">
+                      <h3>{rate.quote_rate}</h3>
+                      <p>{rate.contract_name} ({rate.contract_ticker_symbol})</p>
                     </div>
-                    <div class="icon">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <div className="icon">
+                      <i className="fas fa-hand-holding-usd" aria-hidden="true"></i>
                     </div>
-                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                    <a href="/" className="card-box-footer">
+                      View More <i className="fa fa-arrow-circle-right"></i>
+                    </a>
+                  </div>
                 </div>
-            </div>
+              );
+            })}
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="card-box bg-green">
-                    <div class="inner">
-                        <h3> ₹185358 </h3>
-                        <p> Today’s Collection </p>
-                    </div>
-                    <div class="icon">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                    </div>
-                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+            {/* <div className="col-lg-3 col-sm-6">
+              <div className="card-box bg-green">
+                <div className="inner">
+                  <h3> ₹185358 </h3>
+                  <p> Today’s Collection </p>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="card-box bg-orange">
-                    <div class="inner">
-                        <h3> 5464 </h3>
-                        <p> New Admissions </p>
-                    </div>
-                    <div class="icon">
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>
-                    </div>
-                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                <div className="icon">
+                  <i className="fa fa-money" aria-hidden="true"></i>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 boxes">
-                <div class="card-box bg-red">
-                    <div class="inner">
-                        <h3> 723 </h3>
-                        <p> Faculty Strength </p>
-                    </div>
-                    <div class="icon">
-                        <i class="fa fa-users"></i>
-                    </div>
-                    <a href="#" class="card-box-footer">View More <i class="fa fa-arrow-circle-right"></i></a>
+                <a href="/" className="card-box-footer">
+                  View More <i className="fa fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div> */}
+            {/* <div className="col-lg-3 col-sm-6">
+              <div className="card-box bg-orange">
+                <div className="inner">
+                  <h3> 5464 </h3>
+                  <p> New Admissions </p>
                 </div>
-            </div>
+                <div className="icon">
+                  <i className="fa fa-user-plus" aria-hidden="true"></i>
+                </div>
+                <a href="/" className="card-box-footer">
+                  View More <i className="fa fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div> */}
+            {/* <div className="col-lg-3 col-sm-6 boxes">
+              <div className="card-box bg-red">
+                <div className="inner">
+                  <h3> 723 </h3>
+                  <p> Faculty Strength </p>
+                </div>
+                <div className="icon">
+                  <i className="fa fa-users"></i>
+                </div>
+                <a href="/" className="card-box-footer">
+                  View More <i className="fa fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div> */}
+          </div>
         </div>
-    </div>
+      </section>
 
-      </section>  
-      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="tokenTable">
         <div className="my-4 w-100" id="myChart"></div>
-        <h2>Section title</h2>
+        <h2>Top 10 Covalent Token Holders</h2>
         <div className="table-responsive">
-          <table className="table table-striped table-sm">
+          <table className="table table-striped table-sm table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
+                <th scope="col">Address</th>
+                <th scope="col">Ticker Symbol</th>
+                <th scope="col">Balance</th>
+                <th scope="col">Total Supply</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>1,001</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>text</td>
-              </tr>
-              <tr>
-                <td>1,002</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td>layout</td>
-              </tr>
-              <tr>
-                <td>1,003</td>
-                <td>data</td>
-                <td>rich</td>
-                <td>dashboard</td>
-                <td>tabular</td>
-              </tr>
-              <tr>
-                <td>1,003</td>
-                <td>information</td>
-                <td>placeholder</td>
-                <td>illustrative</td>
-                <td>data</td>
-              </tr>
-              <tr>
-                <td>1,004</td>
-                <td>text</td>
-                <td>random</td>
-                <td>layout</td>
-                <td>dashboard</td>
-              </tr>
-              <tr>
-                <td>1,005</td>
-                <td>dashboard</td>
-                <td>irrelevant</td>
-                <td>text</td>
-                <td>placeholder</td>
-              </tr>
-              <tr>
-                <td>1,006</td>
-                <td>dashboard</td>
-                <td>illustrative</td>
-                <td>rich</td>
-                <td>data</td>
-              </tr>
-              <tr>
-                <td>1,007</td>
-                <td>placeholder</td>
-                <td>tabular</td>
-                <td>information</td>
-                <td>irrelevant</td>
-              </tr>
-              <tr>
-                <td>1,008</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>text</td>
-              </tr>
-              <tr>
-                <td>1,009</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td>layout</td>
-              </tr>
-              <tr>
-                <td>1,010</td>
-                <td>data</td>
-                <td>rich</td>
-                <td>dashboard</td>
-                <td>tabular</td>
-              </tr>
-              <tr>
-                <td>1,011</td>
-                <td>information</td>
-                <td>placeholder</td>
-                <td>illustrative</td>
-                <td>data</td>
-              </tr>
-              <tr>
-                <td>1,012</td>
-                <td>text</td>
-                <td>placeholder</td>
-                <td>layout</td>
-                <td>dashboard</td>
-              </tr>
-              <tr>
-                <td>1,013</td>
-                <td>dashboard</td>
-                <td>irrelevant</td>
-                <td>text</td>
-                <td>visual</td>
-              </tr>
-              <tr>
-                <td>1,014</td>
-                <td>dashboard</td>
-                <td>illustrative</td>
-                <td>rich</td>
-                <td>data</td>
-              </tr>
-              <tr>
-                <td>1,015</td>
-                <td>random</td>
-                <td>tabular</td>
-                <td>information</td>
-                <td>text</td>
-              </tr>
-            </tbody>
+            {props.holders.map((holder) => {
+              return (
+                <tbody>
+                  <tr>
+                    <td>{holder.address}</td>
+                    <td>{holder.contract_ticker_symbol}</td>
+                    <td>{holder.balance}</td>
+                    <td>{holder.total_supply}</td>
+                  </tr>
+                </tbody>
+              );
+            })}
           </table>
         </div>
       </section>
-      
     </div>
   );
 };

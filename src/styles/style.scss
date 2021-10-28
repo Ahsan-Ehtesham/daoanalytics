@@ -1,6 +1,6 @@
 $primary-color: white;
 $secondary-color: #00506c;
-$third-color: #5db6d6;
+$third-color: #4dc7ec;
 
 body {
   font-size: 0.875rem;
@@ -120,7 +120,7 @@ body {
   background-color: $primary-color;
   width: 25%;
   border-radius: 10px;
-  margin-left: 25px;
+  margin-left: 28px;
 
   &:focus {
     border-color: transparent;
@@ -445,12 +445,26 @@ body {
 //     }
 //   }
 // }
-
+#tokenTable {
+  h2{
+    font-weight: 600;
+    color: $secondary-color;
+  }
+  .table{
+    thead{
+      th{
+        color: $secondary-color;
+      }
+    }
+  }
+}
 .card-box {
   position: relative;
+  background-color: $third-color;
   color: #fff;
   padding: 20px 10px 40px;
   margin: 20px 0px;
+  border-radius: 10px;
   &:hover {
     text-decoration: none;
     color: #f1f1f1;
@@ -494,6 +508,8 @@ body {
     padding: 3px 0;
     color: rgba(255, 255, 255, 0.8);
     background: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     width: 100%;
     text-decoration: none;
   }
@@ -501,16 +517,4 @@ body {
 
 .card-box:hover .card-box-footer {
   background: rgba(0, 0, 0, 0.3);
-}
-.bg-blue {
-  background-color: #00c0ef !important;
-}
-.bg-green {
-  background-color: #00a65a !important;
-}
-.bg-orange {
-  background-color: #f39c12 !important;
-}
-.bg-red {
-  background-color: #d9534f !important;
 }

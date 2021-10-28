@@ -8,7 +8,8 @@ import BodySection from "./components/BodySection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
-  const [products, setProducts] = useState([]);
+  const [holders, setHolders] = useState([]);
+  const [rates, setRates] = useState([]);
 
   //Add btn function
   // const onAdd = (product) => {
@@ -38,27 +39,27 @@ const App = () => {
   //   }
   // };
 
-  const getProductRequest = async () => {
-    const productUrl = "https://fakestoreapi.com/products";
+  const getTokenHolders = async () => {
+    const holderUrl = "https://api.covalenthq.com/v1/1/tokens/0xD417144312DbF50465b1C641d016962017Ef6240/token_holders/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=10";
 
-    const response = await fetch(productUrl);
+    const response = await fetch(holderUrl);
     const parsedData = await response.json();
-    console.log(parsedData);
-    setProducts(parsedData);
+    console.log(parsedData.data.items);
+    setHolders(parsedData.data.items);
   };
 
-  // const getSalesRequest = async () => {
-  //   const salesUrl = "https://random-data-api.com/api/users/random_user?size=5";
+  const getRateRequest = async () => {
+    const rateUrl = "https://api.covalenthq.com/v1/pricing/tickers/?tickers=usd%2Ceth%2Cbnb%2Cbtc&key=ckey_3ef3cefb5f2447cabfdc7d26599";
 
-  //   const response = await fetch(salesUrl);
-  //   const parsedData = await response.json();
-  //   console.log(parsedData);
-  //   setSales(parsedData);
-  // };
+    const response = await fetch(rateUrl);
+    const parsedData = await response.json();
+    console.log(parsedData.data.items);
+    setRates(parsedData.data.items);
+  };
 
   useEffect(() => {
-    getProductRequest();
-    // getSalesRequest();
+    getTokenHolders();
+    getRateRequest();
   }, []);
 
   return (
@@ -68,7 +69,7 @@ const App = () => {
         <Switch>
           <Route path="/">
             <Sidebar />
-            <BodySection products={products} />
+            <BodySection holders={holders} rates={rates}/>
           </Route>
         </Switch>
       </Router>

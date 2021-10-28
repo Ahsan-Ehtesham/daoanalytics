@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+Cards and Table Populated/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## TODO
+Charts Populate
 
 ## Available Scripts
 

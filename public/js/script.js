@@ -1,4 +1,4 @@
-// Initialize the echarts instance based on the prepared dom
+// Initialize the recharts instance based on the prepared dom
 let myChart = echarts.init(document.getElementById("myChart"));
 
 // Specify the configuration items and data for the chart
