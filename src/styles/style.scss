@@ -1,10 +1,10 @@
 $primary-color: white;
-$secondary-color: #00506c;
-$third-color: #4dc7ec;
+$secondary-color: #121212;
+$third-color: #f2b92c;
 
 body {
   font-size: 0.875rem;
-  background-color: $primary-color;
+  // background-color: rgba(18, 18, 18, 0.95);
 }
 
 /*
@@ -143,10 +143,11 @@ body {
      * Body
      */
 
-#myChart {
-  width: 600px;
-  height: 400px;
-}
+// #myChart {
+//   width: 600px;
+//   height: 400px;
+//   color: white;
+// }
 
 // .header {
 //   background-color: $third-color;
