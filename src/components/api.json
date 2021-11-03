@@ -1,0 +1,1302 @@
+{
+  "address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+  "updated_at": "2021-10-31T16:15:40.053963501Z",
+  "next_update_at": "2021-10-31T16:20:40.053965651Z",
+  "quote_currency": "USD",
+  "chain_id": 1,
+  "items": [
+    {
+      "contract_decimals": 18,
+      "contract_name": "DAO Maker",
+      "contract_ticker_symbol": "DAO",
+      "contract_address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+      "supports_erc": null,
+      "logo_url": "https://logos.covalenthq.com/tokens/1/0x0f51bb10119727a7e5ea3538074fb341f56b09ad.png",
+      "holdings": [
+        {
+          "timestamp": "2021-10-31T00:00:00Z",
+          "quote_rate": 2.45,
+          "open": { "balance": "28732816889002085348397", "quote": 70395.4 },
+          "high": { "balance": "28732816889002085348397", "quote": 70395.4 },
+          "low": { "balance": "28732816889002085348397", "quote": 70395.4 },
+          "close": { "balance": "28732816889002085348397", "quote": 70395.4 }
+        },
+        {
+          "timestamp": "2021-10-30T00:00:00Z",
+          "quote_rate": 2.4857872,
+          "open": { "balance": "28732816889002085348397", "quote": 71423.664 },
+          "high": { "balance": "28732816889002085348397", "quote": 71423.664 },
+          "low": { "balance": "28732816889002085348397", "quote": 71423.664 },
+          "close": { "balance": "28732816889002085348397", "quote": 71423.664 }
+        },
+        {
+          "timestamp": "2021-10-29T00:00:00Z",
+          "quote_rate": 2.490704,
+          "open": { "balance": "27710378489002085348397", "quote": 69018.35 },
+          "high": { "balance": "28732816889002085348397", "quote": 71564.945 },
+          "low": { "balance": "27710378489002085348397", "quote": 69018.35 },
+          "close": { "balance": "28732816889002085348397", "quote": 71564.945 }
+        },
+        {
+          "timestamp": "2021-10-28T00:00:00Z",
+          "quote_rate": 2.4661062,
+          "open": { "balance": "27710378489002085348397", "quote": 68336.734 },
+          "high": { "balance": "27710378489002085348397", "quote": 68336.734 },
+          "low": { "balance": "27710378489002085348397", "quote": 68336.734 },
+          "close": { "balance": "27710378489002085348397", "quote": 68336.734 }
+        },
+        {
+          "timestamp": "2021-10-27T00:00:00Z",
+          "quote_rate": 2.6241152,
+          "open": { "balance": "27710378489002085348397", "quote": 72715.23 },
+          "high": { "balance": "27710378489002085348397", "quote": 72715.23 },
+          "low": { "balance": "27710378489002085348397", "quote": 72715.23 },
+          "close": { "balance": "27710378489002085348397", "quote": 72715.23 }
+        },
+        {
+          "timestamp": "2021-10-26T00:00:00Z",
+          "quote_rate": 2.917917,
+          "open": { "balance": "27710378489002085348397", "quote": 80856.586 },
+          "high": { "balance": "27710378489002085348397", "quote": 80856.586 },
+          "low": { "balance": "27710378489002085348397", "quote": 80856.586 },
+          "close": { "balance": "27710378489002085348397", "quote": 80856.586 }
+        },
+        {
+          "timestamp": "2021-10-25T00:00:00Z",
+          "quote_rate": 2.8242629,
+          "open": { "balance": "27710378489002085348397", "quote": 78261.39 },
+          "high": { "balance": "27710378489002085348397", "quote": 78261.39 },
+          "low": { "balance": "27710378489002085348397", "quote": 78261.39 },
+          "close": { "balance": "27710378489002085348397", "quote": 78261.39 }
+        },
+        {
+          "timestamp": "2021-10-24T00:00:00Z",
+          "quote_rate": 2.8453465,
+          "open": { "balance": "27710378489002085348397", "quote": 78845.625 },
+          "high": { "balance": "27710378489002085348397", "quote": 78845.625 },
+          "low": { "balance": "27710378489002085348397", "quote": 78845.625 },
+          "close": { "balance": "27710378489002085348397", "quote": 78845.625 }
+        },
+        {
+          "timestamp": "2021-10-23T00:00:00Z",
+          "quote_rate": 2.7751665,
+          "open": { "balance": "27710378489002085348397", "quote": 76900.914 },
+          "high": { "balance": "27710378489002085348397", "quote": 76900.914 },
+          "low": { "balance": "27710378489002085348397", "quote": 76900.914 },
+          "close": { "balance": "27710378489002085348397", "quote": 76900.914 }
+        },
+        {
+          "timestamp": "2021-10-22T00:00:00Z",
+          "quote_rate": 2.895064,
+          "open": { "balance": "27710378489002085348397", "quote": 80223.32 },
+          "high": { "balance": "27710378489002085348397", "quote": 80223.32 },
+          "low": { "balance": "27710378489002085348397", "quote": 80223.32 },
+          "close": { "balance": "27710378489002085348397", "quote": 80223.32 }
+        },
+        {
+          "timestamp": "2021-10-21T00:00:00Z",
+          "quote_rate": 2.9596717,
+          "open": { "balance": "27710378489002085348397", "quote": 82013.625 },
+          "high": { "balance": "27710378489002085348397", "quote": 82013.625 },
+          "low": { "balance": "27710378489002085348397", "quote": 82013.625 },
+          "close": { "balance": "27710378489002085348397", "quote": 82013.625 }
+        },
+        {
+          "timestamp": "2021-10-20T00:00:00Z",
+          "quote_rate": 2.7612915,
+          "open": { "balance": "27710378489002085348397", "quote": 76516.44 },
+          "high": { "balance": "27710378489002085348397", "quote": 76516.44 },
+          "low": { "balance": "27710378489002085348397", "quote": 76516.44 },
+          "close": { "balance": "27710378489002085348397", "quote": 76516.44 }
+        },
+        {
+          "timestamp": "2021-10-19T00:00:00Z",
+          "quote_rate": 2.7286463,
+          "open": { "balance": "27710378489002085348397", "quote": 75611.82 },
+          "high": { "balance": "27710378489002085348397", "quote": 75611.82 },
+          "low": { "balance": "27710378489002085348397", "quote": 75611.82 },
+          "close": { "balance": "27710378489002085348397", "quote": 75611.82 }
+        },
+        {
+          "timestamp": "2021-10-18T00:00:00Z",
+          "quote_rate": 2.8158016,
+          "open": { "balance": "27710378489002085348397", "quote": 78026.93 },
+          "high": { "balance": "27710378489002085348397", "quote": 78026.93 },
+          "low": { "balance": "27710378489002085348397", "quote": 78026.93 },
+          "close": { "balance": "27710378489002085348397", "quote": 78026.93 }
+        },
+        {
+          "timestamp": "2021-10-17T00:00:00Z",
+          "quote_rate": 2.8068006,
+          "open": { "balance": "27710378489002085348397", "quote": 77777.51 },
+          "high": { "balance": "27710378489002085348397", "quote": 77777.51 },
+          "low": { "balance": "27710378489002085348397", "quote": 77777.51 },
+          "close": { "balance": "27710378489002085348397", "quote": 77777.51 }
+        },
+        {
+          "timestamp": "2021-10-16T00:00:00Z",
+          "quote_rate": 2.8291075,
+          "open": { "balance": "27532742329853042993956", "quote": 77893.086 },
+          "high": { "balance": "27710378489002085348397", "quote": 78395.64 },
+          "low": { "balance": "27532742329853042993956", "quote": 77893.086 },
+          "close": { "balance": "27710378489002085348397", "quote": 78395.64 }
+        },
+        {
+          "timestamp": "2021-10-15T00:00:00Z",
+          "quote_rate": 2.5188437,
+          "open": { "balance": "27532742329853042993956", "quote": 69350.67 },
+          "high": { "balance": "27532742329853042993956", "quote": 69350.67 },
+          "low": { "balance": "27532742329853042993956", "quote": 69350.67 },
+          "close": { "balance": "27532742329853042993956", "quote": 69350.67 }
+        },
+        {
+          "timestamp": "2021-10-14T00:00:00Z",
+          "quote_rate": 2.903385,
+          "open": { "balance": "27532742329853042993956", "quote": 79938.15 },
+          "high": { "balance": "27532742329853042993956", "quote": 79938.15 },
+          "low": { "balance": "27532742329853042993956", "quote": 79938.15 },
+          "close": { "balance": "27532742329853042993956", "quote": 79938.15 }
+        },
+        {
+          "timestamp": "2021-10-13T00:00:00Z",
+          "quote_rate": 2.7630205,
+          "open": { "balance": "27532742329853042993956", "quote": 76073.53 },
+          "high": { "balance": "27532742329853042993956", "quote": 76073.53 },
+          "low": { "balance": "27532742329853042993956", "quote": 76073.53 },
+          "close": { "balance": "27532742329853042993956", "quote": 76073.53 }
+        },
+        {
+          "timestamp": "2021-10-12T00:00:00Z",
+          "quote_rate": 3.0042481,
+          "open": { "balance": "26132742329853042993956", "quote": 78509.24 },
+          "high": { "balance": "27532742329853042993956", "quote": 82715.19 },
+          "low": { "balance": "26132742329853042993956", "quote": 78509.24 },
+          "close": { "balance": "27532742329853042993956", "quote": 82715.19 }
+        },
+        {
+          "timestamp": "2021-10-11T00:00:00Z",
+          "quote_rate": 2.8301814,
+          "open": { "balance": "26132742329853042993956", "quote": 73960.4 },
+          "high": { "balance": "26132742329853042993956", "quote": 73960.4 },
+          "low": { "balance": "26132742329853042993956", "quote": 73960.4 },
+          "close": { "balance": "26132742329853042993956", "quote": 73960.4 }
+        },
+        {
+          "timestamp": "2021-10-10T00:00:00Z",
+          "quote_rate": 3.0228193,
+          "open": { "balance": "26132742329853042993956", "quote": 78994.555 },
+          "high": { "balance": "26132742329853042993956", "quote": 78994.555 },
+          "low": { "balance": "26132742329853042993956", "quote": 78994.555 },
+          "close": { "balance": "26132742329853042993956", "quote": 78994.555 }
+        },
+        {
+          "timestamp": "2021-10-09T00:00:00Z",
+          "quote_rate": 3.1607122,
+          "open": { "balance": "26132742329853042993956", "quote": 82598.08 },
+          "high": { "balance": "26132742329853042993956", "quote": 82598.08 },
+          "low": { "balance": "26132742329853042993956", "quote": 82598.08 },
+          "close": { "balance": "26132742329853042993956", "quote": 82598.08 }
+        },
+        {
+          "timestamp": "2021-10-08T00:00:00Z",
+          "quote_rate": 3.0039852,
+          "open": { "balance": "26132742329853042993956", "quote": 78502.37 },
+          "high": { "balance": "26132742329853042993956", "quote": 78502.37 },
+          "low": { "balance": "26132742329853042993956", "quote": 78502.37 },
+          "close": { "balance": "26132742329853042993956", "quote": 78502.37 }
+        },
+        {
+          "timestamp": "2021-10-07T00:00:00Z",
+          "quote_rate": 3.047296,
+          "open": { "balance": "26132742329853042993956", "quote": 79634.2 },
+          "high": { "balance": "26132742329853042993956", "quote": 79634.2 },
+          "low": { "balance": "26132742329853042993956", "quote": 79634.2 },
+          "close": { "balance": "26132742329853042993956", "quote": 79634.2 }
+        },
+        {
+          "timestamp": "2021-10-06T00:00:00Z",
+          "quote_rate": 2.9000337,
+          "open": { "balance": "25624807988853042993956", "quote": 74312.81 },
+          "high": { "balance": "26132742329853042993956", "quote": 75785.836 },
+          "low": { "balance": "25624807988853042993956", "quote": 74312.81 },
+          "close": { "balance": "26132742329853042993956", "quote": 75785.836 }
+        },
+        {
+          "timestamp": "2021-10-05T00:00:00Z",
+          "quote_rate": 3.128925,
+          "open": { "balance": "25618807988853042993956", "quote": 80159.33 },
+          "high": { "balance": "25624807988853042993956", "quote": 80178.11 },
+          "low": { "balance": "25618807988853042993956", "quote": 80159.33 },
+          "close": { "balance": "25624807988853042993956", "quote": 80178.11 }
+        },
+        {
+          "timestamp": "2021-10-04T00:00:00Z",
+          "quote_rate": 3.1739926,
+          "open": { "balance": "25618807988853042993956", "quote": 81313.91 },
+          "high": { "balance": "25618807988853042993956", "quote": 81313.91 },
+          "low": { "balance": "25618807988853042993956", "quote": 81313.91 },
+          "close": { "balance": "25618807988853042993956", "quote": 81313.91 }
+        },
+        {
+          "timestamp": "2021-10-03T00:00:00Z",
+          "quote_rate": 3.4465282,
+          "open": { "balance": "25618807988853042993956", "quote": 88295.94 },
+          "high": { "balance": "25618807988853042993956", "quote": 88295.94 },
+          "low": { "balance": "25618807988853042993956", "quote": 88295.94 },
+          "close": { "balance": "25618807988853042993956", "quote": 88295.94 }
+        },
+        {
+          "timestamp": "2021-10-02T00:00:00Z",
+          "quote_rate": 3.6571584,
+          "open": { "balance": "25437558610715348381537", "quote": 93029.18 },
+          "high": { "balance": "25618807988853042993956", "quote": 93692.03 },
+          "low": { "balance": "25437558610715348381537", "quote": 93029.18 },
+          "close": { "balance": "25618807988853042993956", "quote": 93692.03 }
+        },
+        {
+          "timestamp": "2021-10-01T00:00:00Z",
+          "quote_rate": 3.176147,
+          "open": { "balance": "25437558610715348381537", "quote": 80793.42 },
+          "high": { "balance": "25437558610715348381537", "quote": 80793.42 },
+          "low": { "balance": "25437558610715348381537", "quote": 80793.42 },
+          "close": { "balance": "25437558610715348381537", "quote": 80793.42 }
+        }
+      ]
+    },
+    {
+      "contract_decimals": 6,
+      "contract_name": "USD Coin",
+      "contract_ticker_symbol": "USDC",
+      "contract_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "supports_erc": null,
+      "logo_url": "https://logos.covalenthq.com/tokens/1/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png",
+      "holdings": [
+        {
+          "timestamp": "2021-10-31T00:00:00Z",
+          "quote_rate": 1.0,
+          "open": { "balance": "5485276390", "quote": 5485.2764 },
+          "high": { "balance": "5485276390", "quote": 5485.2764 },
+          "low": { "balance": "5485276390", "quote": 5485.2764 },
+          "close": { "balance": "5485276390", "quote": 5485.2764 }
+        },
+        {
+          "timestamp": "2021-10-30T00:00:00Z",
+          "quote_rate": 1.0313636,
+          "open": { "balance": "5485276390", "quote": 5657.3145 },
+          "high": { "balance": "5485276390", "quote": 5657.3145 },
+          "low": { "balance": "5485276390", "quote": 5657.3145 },
+          "close": { "balance": "5485276390", "quote": 5657.3145 }
+        },
+        {
+          "timestamp": "2021-10-29T00:00:00Z",
+          "quote_rate": 0.9766954,
+          "open": { "balance": "5485276390", "quote": 5357.4443 },
+          "high": { "balance": "5485276390", "quote": 5357.4443 },
+          "low": { "balance": "5485276390", "quote": 5357.4443 },
+          "close": { "balance": "5485276390", "quote": 5357.4443 }
+        },
+        {
+          "timestamp": "2021-10-28T00:00:00Z",
+          "quote_rate": 0.9683233,
+          "open": { "balance": "5485276390", "quote": 5311.521 },
+          "high": { "balance": "5485276390", "quote": 5311.521 },
+          "low": { "balance": "5485276390", "quote": 5311.521 },
+          "close": { "balance": "5485276390", "quote": 5311.521 }
+        },
+        {
+          "timestamp": "2021-10-27T00:00:00Z",
+          "quote_rate": 1.0348387,
+          "open": { "balance": "5485276390", "quote": 5676.376 },
+          "high": { "balance": "5485276390", "quote": 5676.376 },
+          "low": { "balance": "5485276390", "quote": 5676.376 },
+          "close": { "balance": "5485276390", "quote": 5676.376 }
+        },
+        {
+          "timestamp": "2021-10-26T00:00:00Z",
+          "quote_rate": 1.0470996,
+          "open": { "balance": "5485276390", "quote": 5743.631 },
+          "high": { "balance": "5485276390", "quote": 5743.631 },
+          "low": { "balance": "5485276390", "quote": 5743.631 },
+          "close": { "balance": "5485276390", "quote": 5743.631 }
+        },
+        {
+          "timestamp": "2021-10-25T00:00:00Z",
+          "quote_rate": 0.9706048,
+          "open": { "balance": "5485276390", "quote": 5324.0356 },
+          "high": { "balance": "5485276390", "quote": 5324.0356 },
+          "low": { "balance": "5485276390", "quote": 5324.0356 },
+          "close": { "balance": "5485276390", "quote": 5324.0356 }
+        },
+        {
+          "timestamp": "2021-10-24T00:00:00Z",
+          "quote_rate": 1.0118991,
+          "open": { "balance": "5485276390", "quote": 5550.5464 },
+          "high": { "balance": "5485276390", "quote": 5550.5464 },
+          "low": { "balance": "5485276390", "quote": 5550.5464 },
+          "close": { "balance": "5485276390", "quote": 5550.5464 }
+        },
+        {
+          "timestamp": "2021-10-23T00:00:00Z",
+          "quote_rate": 0.99630964,
+          "open": { "balance": "5485276390", "quote": 5465.0337 },
+          "high": { "balance": "5485276390", "quote": 5465.0337 },
+          "low": { "balance": "5485276390", "quote": 5465.0337 },
+          "close": { "balance": "5485276390", "quote": 5465.0337 }
+        },
+        {
+          "timestamp": "2021-10-22T00:00:00Z",
+          "quote_rate": 1.0295544,
+          "open": { "balance": "5485276390", "quote": 5647.39 },
+          "high": { "balance": "5485276390", "quote": 5647.39 },
+          "low": { "balance": "5485276390", "quote": 5647.39 },
+          "close": { "balance": "5485276390", "quote": 5647.39 }
+        },
+        {
+          "timestamp": "2021-10-21T00:00:00Z",
+          "quote_rate": 1.0626825,
+          "open": { "balance": "5485276390", "quote": 5829.1074 },
+          "high": { "balance": "5485276390", "quote": 5829.1074 },
+          "low": { "balance": "5485276390", "quote": 5829.1074 },
+          "close": { "balance": "5485276390", "quote": 5829.1074 }
+        },
+        {
+          "timestamp": "2021-10-20T00:00:00Z",
+          "quote_rate": 0.976592,
+          "open": { "balance": "5485276390", "quote": 5356.877 },
+          "high": { "balance": "5485276390", "quote": 5356.877 },
+          "low": { "balance": "5485276390", "quote": 5356.877 },
+          "close": { "balance": "5485276390", "quote": 5356.877 }
+        },
+        {
+          "timestamp": "2021-10-19T00:00:00Z",
+          "quote_rate": 0.96414876,
+          "open": { "balance": "5485276390", "quote": 5288.6226 },
+          "high": { "balance": "5485276390", "quote": 5288.6226 },
+          "low": { "balance": "5485276390", "quote": 5288.6226 },
+          "close": { "balance": "5485276390", "quote": 5288.6226 }
+        },
+        {
+          "timestamp": "2021-10-18T00:00:00Z",
+          "quote_rate": 0.99448067,
+          "open": { "balance": "5485276390", "quote": 5455.0015 },
+          "high": { "balance": "5485276390", "quote": 5455.0015 },
+          "low": { "balance": "5485276390", "quote": 5455.0015 },
+          "close": { "balance": "5485276390", "quote": 5455.0015 }
+        },
+        {
+          "timestamp": "2021-10-17T00:00:00Z",
+          "quote_rate": 0.99547464,
+          "open": { "balance": "5485276390", "quote": 5460.4536 },
+          "high": { "balance": "5485276390", "quote": 5460.4536 },
+          "low": { "balance": "5485276390", "quote": 5460.4536 },
+          "close": { "balance": "5485276390", "quote": 5460.4536 }
+        },
+        {
+          "timestamp": "2021-10-16T00:00:00Z",
+          "quote_rate": 1.0130706,
+          "open": { "balance": "5485276390", "quote": 5556.972 },
+          "high": { "balance": "5485276390", "quote": 5556.972 },
+          "low": { "balance": "5485276390", "quote": 5556.972 },
+          "close": { "balance": "5485276390", "quote": 5556.972 }
+        },
+        {
+          "timestamp": "2021-10-15T00:00:00Z",
+          "quote_rate": 0.93456143,
+          "open": { "balance": "5485276390", "quote": 5126.3276 },
+          "high": { "balance": "5485276390", "quote": 5126.3276 },
+          "low": { "balance": "5485276390", "quote": 5126.3276 },
+          "close": { "balance": "5485276390", "quote": 5126.3276 }
+        },
+        {
+          "timestamp": "2021-10-14T00:00:00Z",
+          "quote_rate": 1.0013254,
+          "open": { "balance": "5485276390", "quote": 5492.5464 },
+          "high": { "balance": "5485276390", "quote": 5492.5464 },
+          "low": { "balance": "5485276390", "quote": 5492.5464 },
+          "close": { "balance": "5485276390", "quote": 5492.5464 }
+        },
+        {
+          "timestamp": "2021-10-13T00:00:00Z",
+          "quote_rate": 0.98320836,
+          "open": { "balance": "5485276390", "quote": 5393.1694 },
+          "high": { "balance": "5485276390", "quote": 5393.1694 },
+          "low": { "balance": "5485276390", "quote": 5393.1694 },
+          "close": { "balance": "5485276390", "quote": 5393.1694 }
+        },
+        {
+          "timestamp": "2021-10-12T00:00:00Z",
+          "quote_rate": 1.023315,
+          "open": { "balance": "5485276390", "quote": 5613.1655 },
+          "high": { "balance": "5485276390", "quote": 5613.1655 },
+          "low": { "balance": "5485276390", "quote": 5613.1655 },
+          "close": { "balance": "5485276390", "quote": 5613.1655 }
+        },
+        {
+          "timestamp": "2021-10-11T00:00:00Z",
+          "quote_rate": 0.9560136,
+          "open": { "balance": "5485276390", "quote": 5243.999 },
+          "high": { "balance": "5485276390", "quote": 5243.999 },
+          "low": { "balance": "5485276390", "quote": 5243.999 },
+          "close": { "balance": "5485276390", "quote": 5243.999 }
+        },
+        {
+          "timestamp": "2021-10-10T00:00:00Z",
+          "quote_rate": 1.0081165,
+          "open": { "balance": "5485276390", "quote": 5529.7974 },
+          "high": { "balance": "5485276390", "quote": 5529.7974 },
+          "low": { "balance": "5485276390", "quote": 5529.7974 },
+          "close": { "balance": "5485276390", "quote": 5529.7974 }
+        },
+        {
+          "timestamp": "2021-10-09T00:00:00Z",
+          "quote_rate": 0.98253083,
+          "open": { "balance": "5485276390", "quote": 5389.453 },
+          "high": { "balance": "5485276390", "quote": 5389.453 },
+          "low": { "balance": "5485276390", "quote": 5389.453 },
+          "close": { "balance": "5485276390", "quote": 5389.453 }
+        },
+        {
+          "timestamp": "2021-10-08T00:00:00Z",
+          "quote_rate": 0.99956936,
+          "open": { "balance": "5485276390", "quote": 5482.914 },
+          "high": { "balance": "5485276390", "quote": 5482.914 },
+          "low": { "balance": "5485276390", "quote": 5482.914 },
+          "close": { "balance": "5485276390", "quote": 5482.914 }
+        },
+        {
+          "timestamp": "2021-10-07T00:00:00Z",
+          "quote_rate": 1.0301039,
+          "open": { "balance": "5485276390", "quote": 5650.405 },
+          "high": { "balance": "5485276390", "quote": 5650.405 },
+          "low": { "balance": "5485276390", "quote": 5650.405 },
+          "close": { "balance": "5485276390", "quote": 5650.405 }
+        },
+        {
+          "timestamp": "2021-10-06T00:00:00Z",
+          "quote_rate": 0.93304086,
+          "open": { "balance": "5485276390", "quote": 5117.987 },
+          "high": { "balance": "5485276390", "quote": 5117.987 },
+          "low": { "balance": "5485276390", "quote": 5117.987 },
+          "close": { "balance": "5485276390", "quote": 5117.987 }
+        },
+        {
+          "timestamp": "2021-10-05T00:00:00Z",
+          "quote_rate": 0.9551139,
+          "open": { "balance": "5485276390", "quote": 5239.0635 },
+          "high": { "balance": "5485276390", "quote": 5239.0635 },
+          "low": { "balance": "5485276390", "quote": 5239.0635 },
+          "close": { "balance": "5485276390", "quote": 5239.0635 }
+        },
+        {
+          "timestamp": "2021-10-04T00:00:00Z",
+          "quote_rate": 0.97838265,
+          "open": { "balance": "5485276390", "quote": 5366.699 },
+          "high": { "balance": "5485276390", "quote": 5366.699 },
+          "low": { "balance": "5485276390", "quote": 5366.699 },
+          "close": { "balance": "5485276390", "quote": 5366.699 }
+        },
+        {
+          "timestamp": "2021-10-03T00:00:00Z",
+          "quote_rate": 0.99103457,
+          "open": { "balance": "5485276390", "quote": 5436.0986 },
+          "high": { "balance": "5485276390", "quote": 5436.0986 },
+          "low": { "balance": "5485276390", "quote": 5436.0986 },
+          "close": { "balance": "5485276390", "quote": 5436.0986 }
+        },
+        {
+          "timestamp": "2021-10-02T00:00:00Z",
+          "quote_rate": 1.0084566,
+          "open": { "balance": "5485276390", "quote": 5531.663 },
+          "high": { "balance": "5485276390", "quote": 5531.663 },
+          "low": { "balance": "5485276390", "quote": 5531.663 },
+          "close": { "balance": "5485276390", "quote": 5531.663 }
+        },
+        {
+          "timestamp": "2021-10-01T00:00:00Z",
+          "quote_rate": 0.91239893,
+          "open": { "balance": "5485276390", "quote": 5004.7603 },
+          "high": { "balance": "5485276390", "quote": 5004.7603 },
+          "low": { "balance": "5485276390", "quote": 5004.7603 },
+          "close": { "balance": "5485276390", "quote": 5004.7603 }
+        }
+      ]
+    },
+    {
+      "contract_decimals": 18,
+      "contract_name": "Yield Protocol",
+      "contract_ticker_symbol": "YIELD",
+      "contract_address": "0xa8b61cff52564758a204f841e636265bebc8db9b",
+      "supports_erc": null,
+      "logo_url": "https://logos.covalenthq.com/tokens/1/0xa8b61cff52564758a204f841e636265bebc8db9b.png",
+      "holdings": [
+        {
+          "timestamp": "2021-10-31T00:00:00Z",
+          "quote_rate": 0.04042446,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-30T00:00:00Z",
+          "quote_rate": 0.041721366,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-29T00:00:00Z",
+          "quote_rate": 0.039047137,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-28T00:00:00Z",
+          "quote_rate": 0.03784482,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-27T00:00:00Z",
+          "quote_rate": 0.040451586,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-26T00:00:00Z",
+          "quote_rate": 0.045026653,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-25T00:00:00Z",
+          "quote_rate": 0.04061063,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-24T00:00:00Z",
+          "quote_rate": 0.040132828,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-23T00:00:00Z",
+          "quote_rate": 0.039294813,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-22T00:00:00Z",
+          "quote_rate": 0.042762447,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-21T00:00:00Z",
+          "quote_rate": 0.046340346,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-20T00:00:00Z",
+          "quote_rate": 0.041758414,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-19T00:00:00Z",
+          "quote_rate": 0.039225005,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-18T00:00:00Z",
+          "quote_rate": 0.04464775,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-17T00:00:00Z",
+          "quote_rate": 0.044453364,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-16T00:00:00Z",
+          "quote_rate": 0.047732875,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-15T00:00:00Z",
+          "quote_rate": 0.04921244,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-14T00:00:00Z",
+          "quote_rate": 0.03730513,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-13T00:00:00Z",
+          "quote_rate": 0.03770448,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-12T00:00:00Z",
+          "quote_rate": 0.036430087,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-11T00:00:00Z",
+          "quote_rate": 0.036399163,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-10T00:00:00Z",
+          "quote_rate": 0.037853286,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-09T00:00:00Z",
+          "quote_rate": 0.034668993,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-08T00:00:00Z",
+          "quote_rate": 0.036000244,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-07T00:00:00Z",
+          "quote_rate": 0.03808065,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-06T00:00:00Z",
+          "quote_rate": 0.035860404,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-05T00:00:00Z",
+          "quote_rate": 0.03633289,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-04T00:00:00Z",
+          "quote_rate": 0.036392145,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-03T00:00:00Z",
+          "quote_rate": 0.03829755,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-02T00:00:00Z",
+          "quote_rate": 0.04104281,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-01T00:00:00Z",
+          "quote_rate": 0.0361526,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        }
+      ]
+    },
+    {
+      "contract_decimals": 6,
+      "contract_name": "Tether USD",
+      "contract_ticker_symbol": "USDT",
+      "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "supports_erc": null,
+      "logo_url": "https://logos.covalenthq.com/tokens/1/0xdac17f958d2ee523a2206206994597c13d831ec7.png",
+      "holdings": [
+        {
+          "timestamp": "2021-10-31T00:00:00Z",
+          "quote_rate": 1.0,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-30T00:00:00Z",
+          "quote_rate": 1.0319121,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-29T00:00:00Z",
+          "quote_rate": 0.9776855,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-28T00:00:00Z",
+          "quote_rate": 0.969197,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-27T00:00:00Z",
+          "quote_rate": 1.0364221,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-26T00:00:00Z",
+          "quote_rate": 1.0480798,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-25T00:00:00Z",
+          "quote_rate": 0.97105056,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-24T00:00:00Z",
+          "quote_rate": 1.0118196,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-23T00:00:00Z",
+          "quote_rate": 0.99599314,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-22T00:00:00Z",
+          "quote_rate": 1.0288908,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-21T00:00:00Z",
+          "quote_rate": 1.0593241,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-20T00:00:00Z",
+          "quote_rate": 0.97718185,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-19T00:00:00Z",
+          "quote_rate": 0.96798253,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-18T00:00:00Z",
+          "quote_rate": 0.9944716,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-17T00:00:00Z",
+          "quote_rate": 0.9959957,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-16T00:00:00Z",
+          "quote_rate": 1.0132005,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-15T00:00:00Z",
+          "quote_rate": 0.9336206,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-14T00:00:00Z",
+          "quote_rate": 1.000814,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-13T00:00:00Z",
+          "quote_rate": 0.983106,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-12T00:00:00Z",
+          "quote_rate": 1.023183,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-11T00:00:00Z",
+          "quote_rate": 0.95476955,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-10T00:00:00Z",
+          "quote_rate": 1.0086538,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-09T00:00:00Z",
+          "quote_rate": 0.9819196,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-08T00:00:00Z",
+          "quote_rate": 0.99969447,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-07T00:00:00Z",
+          "quote_rate": 1.0303227,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-06T00:00:00Z",
+          "quote_rate": 0.93101716,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-05T00:00:00Z",
+          "quote_rate": 0.9564418,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-04T00:00:00Z",
+          "quote_rate": 0.9794615,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-03T00:00:00Z",
+          "quote_rate": 0.9915427,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-02T00:00:00Z",
+          "quote_rate": 1.0117795,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-01T00:00:00Z",
+          "quote_rate": 0.91274863,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        }
+      ]
+    },
+    {
+      "contract_decimals": 18,
+      "contract_name": "Ether",
+      "contract_ticker_symbol": "ETH",
+      "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "supports_erc": null,
+      "logo_url": "https://logos.covalenthq.com/tokens/1/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+      "holdings": [
+        {
+          "timestamp": "2021-10-31T00:00:00Z",
+          "quote_rate": 4226.23,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-30T00:00:00Z",
+          "quote_rate": 4359.8945,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-29T00:00:00Z",
+          "quote_rate": 4311.1855,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-28T00:00:00Z",
+          "quote_rate": 4145.1934,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-27T00:00:00Z",
+          "quote_rate": 4084.698,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-26T00:00:00Z",
+          "quote_rate": 4330.877,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-25T00:00:00Z",
+          "quote_rate": 4090.6724,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-24T00:00:00Z",
+          "quote_rate": 4123.655,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-23T00:00:00Z",
+          "quote_rate": 4140.5234,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-22T00:00:00Z",
+          "quote_rate": 4090.1743,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-21T00:00:00Z",
+          "quote_rate": 4317.822,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-20T00:00:00Z",
+          "quote_rate": 4060.412,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-19T00:00:00Z",
+          "quote_rate": 3745.7073,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-18T00:00:00Z",
+          "quote_rate": 3730.4932,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-17T00:00:00Z",
+          "quote_rate": 3828.3496,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-16T00:00:00Z",
+          "quote_rate": 3892.0183,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-15T00:00:00Z",
+          "quote_rate": 3613.2148,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-14T00:00:00Z",
+          "quote_rate": 3794.382,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-13T00:00:00Z",
+          "quote_rate": 3534.4968,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-12T00:00:00Z",
+          "quote_rate": 3573.0098,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-11T00:00:00Z",
+          "quote_rate": 3361.5925,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-10T00:00:00Z",
+          "quote_rate": 3455.5789,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-09T00:00:00Z",
+          "quote_rate": 3517.9119,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-08T00:00:00Z",
+          "quote_rate": 3558.3845,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-07T00:00:00Z",
+          "quote_rate": 3696.3037,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-06T00:00:00Z",
+          "quote_rate": 3345.7805,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-05T00:00:00Z",
+          "quote_rate": 3359.1492,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-04T00:00:00Z",
+          "quote_rate": 3318.4954,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-03T00:00:00Z",
+          "quote_rate": 3389.5984,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-02T00:00:00Z",
+          "quote_rate": 3423.9768,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        },
+        {
+          "timestamp": "2021-10-01T00:00:00Z",
+          "quote_rate": 3009.8245,
+          "open": { "balance": "0", "quote": 0.0 },
+          "high": { "balance": "0", "quote": 0.0 },
+          "low": { "balance": "0", "quote": 0.0 },
+          "close": { "balance": "0", "quote": 0.0 }
+        }
+      ]
+    }
+  ],
+  "pagination": null
+}
+
+[{"id":4892,"uid":"f7cfc671-3505-4c0a-8e15-1f9de8ce968f","password":"UNezE6jaDO","first_name":"Horacio","last_name":"Rempel","username":"horacio.rempel","email":"horacio.rempel@email.com","avatar":"https://robohash.org/reruminciduntipsa.png?size=300x300\u0026set=set1","gender":"Male","phone_number":"+375 1-681-787-8479","social_insurance_number":"956395651","date_of_birth":"1959-01-17","employment":{"title":"Future Mining Representative","key_skill":"Leadership"},"address":{"city":"DuBuqueburgh","street_name":"Takako Fields","street_address":"665 Zaida Island","zip_code":"35209-5457","state":"North Dakota","country":"United States","coordinates":{"lat":60.14710531164431,"lng":135.25796141479884}},"credit_card":{"cc_number":"4780164426606"},"subscription":{"plan":"Starter","status":"Active","payment_method":"Paypal","term":"Annual"}},{"id":2965,"uid":"3efbb4bb-22d4-4b18-ace9-9f4fa54bf171","password":"IyERwP6rdV","first_name":"Shaneka","last_name":"Heller","username":"shaneka.heller","email":"shaneka.heller@email.com","avatar":"https://robohash.org/voluptasveniamdolor.png?size=300x300\u0026set=set1","gender":"Bigender","phone_number":"+809 (443) 639-6686 x24313","social_insurance_number":"631523800","date_of_birth":"1962-03-15","employment":{"title":"District Legal Strategist","key_skill":"Technical savvy"},"address":{"city":"Nicoletteton","street_name":"Corwin Square","street_address":"93443 Olson Squares","zip_code":"56151-3832","state":"Hawaii","country":"United States","coordinates":{"lat":60.97714938265918,"lng":47.742103984640806}},"credit_card":{"cc_number":"5158-2592-4537-6513"},"subscription":{"plan":"Platinum","status":"Blocked","payment_method":"Bitcoins","term":"Monthly"}},{"id":1845,"uid":"c53036ee-d234-47a6-9562-aaa22934d9d5","password":"YgFJwaoPmC","first_name":"Cathleen","last_name":"Koepp","username":"cathleen.koepp","email":"cathleen.koepp@email.com","avatar":"https://robohash.org/utetexcepturi.png?size=300x300\u0026set=set1","gender":"Non-binary","phone_number":"+263 314-125-0248","social_insurance_number":"212852859","date_of_birth":"1982-08-30","employment":{"title":"Global Engineer","key_skill":"Confidence"},"address":{"city":"Mannstad","street_name":"Rempel Route","street_address":"725 Gerri Drive","zip_code":"89694-0807","state":"Washington","country":"United States","coordinates":{"lat":-21.51348378656556,"lng":42.744757472255316}},"credit_card":{"cc_number":"4324-5731-5513-0336"},"subscription":{"plan":"Bronze","status":"Idle","payment_method":"Bitcoins","term":"Annual"}},{"id":2646,"uid":"679acbe2-d1bc-46db-8712-a2328f9e8cba","password":"gJYI9H2clA","first_name":"Makeda","last_name":"Jacobs","username":"makeda.jacobs","email":"makeda.jacobs@email.com","avatar":"https://robohash.org/sedfugacorrupti.png?size=300x300\u0026set=set1","gender":"Bigender","phone_number":"+809 1-533-907-8398 x24399","social_insurance_number":"156942005","date_of_birth":"1968-07-03","employment":{"title":"District Technology Supervisor","key_skill":"Fast learner"},"address":{"city":"Port Francesburgh","street_name":"Ziemann Ferry","street_address":"29421 Lemke Creek","zip_code":"82524-4412","state":"Kentucky","country":"United States","coordinates":{"lat":-68.54193902595574,"lng":-130.58614506707204}},"credit_card":{"cc_number":"4418538028317"},"subscription":{"plan":"Student","status":"Blocked","payment_method":"Alipay","term":"Annual"}},{"id":6546,"uid":"e80c8c9e-5826-42f2-a963-4794bb0bb106","password":"jEA9yDc2Jo","first_name":"Charles","last_name":"Lindgren","username":"charles.lindgren","email":"charles.lindgren@email.com","avatar":"https://robohash.org/minusreprehenderitaccusantium.png?size=300x300\u0026set=set1","gender":"Genderfluid","phone_number":"+229 1-154-782-7464 x361","social_insurance_number":"514624527","date_of_birth":"1994-11-09","employment":{"title":"Future Design Agent","key_skill":"Organisation"},"address":{"city":"McGlynnside","street_name":"Stevie Plains","street_address":"656 Parker Hill","zip_code":"94463-3625","state":"Colorado","country":"United States","coordinates":{"lat":-45.45251853375999,"lng":44.80185913623862}},"credit_card":{"cc_number":"4204-8428-1982-4955"},"subscription":{"plan":"Essential","status":"Blocked","payment_method":"Money transfer","term":"Full subscription"}}]

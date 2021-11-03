@@ -1,9 +1,10 @@
 import "./App.css";
 import "./styles/css/style.min.css";
 import React, { useState, useEffect } from "react";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import BodySection from "./components/BodySection";
+// import Navbar from "./components/Navbar";
+// import Sidebar from "./components/Sidebar";
+// import BodySection from "./components/BodySection";
+import Chart from "./components/Chart";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -64,7 +65,7 @@ const App = () => {
 
   return (
     <>
-      <Router>
+      {/* <Router>
         <Navbar />
         <Switch>
           <Route path="/">
@@ -72,7 +73,8 @@ const App = () => {
             <BodySection holders={holders} rates={rates}/>
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
+      <Chart/>
     </>
   );
 };

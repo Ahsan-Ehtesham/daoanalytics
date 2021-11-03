@@ -1,21 +1,92 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { Line } from "react-chartjs-2";
+import axios from "axios";
 // import { Link} from "react-router-dom";
 // import PropTypes from "prop-types";
 // import { useHistory } from "react-router";
 const BodySection = (props) => {
   // const history = useHistory();
   // history.go(0)
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "/js/script.js";
+  //   script.async = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
+  const [chartData, setChartData] = useState({});
+  const chart = () => {
+    let empSal = [];
+    let empAge = [];
+    axios
+      .get(
+        "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/portfolio_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599"
+      )
+      .then((res) => {
+        console.log(res);
+        for (const dataObj of res.data.items[0].holdings[0]) {
+          empSal.push(parseInt(dataObj.quote_rate));
+          empAge.push(parseInt(dataObj.timestamp));
+        }
+        setChartData({
+          labels: empSal,
+          datasets: [
+            {
+              label: "level of thiccness",
+              data: empAge,
+              backgroundColor: ["rgba(75, 192, 192, 0.6)"],
+              borderWidth: 4,
+            }
+          ]
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
+    console.log(empSal, empAge);
+  };
+
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "/js/script.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
+    chart();
   }, []);
+
   return (
     <div>
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3">
+        <div>
+          <Line
+            data={chartData}
+            options={{
+              responsive: true,
+              title: { text: "THICCNESS SCALE", display: true },
+              scales: {
+                yAxes: [
+                  {
+                    ticks: {
+                      autoSkip: true,
+                      maxTicksLimit: 10,
+                      beginAtZero: true,
+                    },
+                    gridLines: {
+                      display: false,
+                    },
+                  },
+                ],
+                xAxes: [
+                  {
+                    gridLines: {
+                      display: false,
+                    },
+                  },
+                ],
+              },
+            }}
+          />
+        </div>
+      </section>
+
       <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3">
         <div className="container">
           <div className="row">
@@ -25,10 +96,15 @@ const BodySection = (props) => {
                   <div className="card-box">
                     <div className="inner">
                       <h3>{rate.quote_rate}</h3>
-                      <p>{rate.contract_name} ({rate.contract_ticker_symbol})</p>
+                      <p>
+                        {rate.contract_name} ({rate.contract_ticker_symbol})
+                      </p>
                     </div>
                     <div className="icon">
-                      <i className="fas fa-hand-holding-usd" aria-hidden="true"></i>
+                      <i
+                        className="fas fa-hand-holding-usd"
+                        aria-hidden="true"
+                      ></i>
                     </div>
                     <a href="/" className="card-box-footer">
                       View More <i className="fa fa-arrow-circle-right"></i>
@@ -84,7 +160,10 @@ const BodySection = (props) => {
         </div>
       </section>
 
-      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4" id="tokenTable">
+      <section
+        className="col-md-9 ms-sm-auto col-lg-10 px-md-4"
+        id="tokenTable"
+      >
         <div className="my-4 w-100" id="myChart"></div>
         <h2>Top 10 Covalent Token Holders</h2>
         <div className="table-responsive">
