@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/daoanalytics/static/css/main.4edf94d0.chunk.css",
+    "main.js": "/daoanalytics/static/js/main.e40f7a4e.chunk.js",
+    "main.js.map": "/daoanalytics/static/js/main.e40f7a4e.chunk.js.map",
+    "runtime-main.js": "/daoanalytics/static/js/runtime-main.96504977.js",
+    "runtime-main.js.map": "/daoanalytics/static/js/runtime-main.96504977.js.map",
+    "static/js/2.880b16a9.chunk.js": "/daoanalytics/static/js/2.880b16a9.chunk.js",
+    "static/js/2.880b16a9.chunk.js.map": "/daoanalytics/static/js/2.880b16a9.chunk.js.map",
+    "static/js/3.c983922d.chunk.js": "/daoanalytics/static/js/3.c983922d.chunk.js",
+    "static/js/3.c983922d.chunk.js.map": "/daoanalytics/static/js/3.c983922d.chunk.js.map",
+    "index.html": "/daoanalytics/index.html",
+    "static/css/main.4edf94d0.chunk.css.map": "/daoanalytics/static/css/main.4edf94d0.chunk.css.map",
+    "static/js/2.880b16a9.chunk.js.LICENSE.txt": "/daoanalytics/static/js/2.880b16a9.chunk.js.LICENSE.txt",
+    "static/media/logo.c1b0f3bc.png": "/daoanalytics/static/media/logo.c1b0f3bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96504977.js",
+    "static/js/2.880b16a9.chunk.js",
+    "static/css/main.4edf94d0.chunk.css",
+    "static/js/main.e40f7a4e.chunk.js"
+  ]
+}
