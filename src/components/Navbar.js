@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 const Navbar = (props) => {
   return (
     <div>
-      <header className="navbar navbar-dark sticky-top flex-md-nowrap p-0">
+      <header className="navbar navbar-dark fixed-top flex-md-nowrap p-0">
         <Link className="navbar-brand col-md-3 col-lg-2 me-0 px-3" to="/">
           <img
             src={logo}
