@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 
 const Navbar = (props) => {
   return (
     <div>
       <header className="navbar navbar-dark fixed-top flex-md-nowrap p-0">
-        <Link className="navbar-brand col-md-3 col-lg-2 me-0 px-3" to="/">
+        <a className="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">
           <img
             src={logo}
             alt=""
@@ -15,7 +14,7 @@ const Navbar = (props) => {
             className="d-inline-block align-text-center me-2"
           />
           DAO Analytics
-        </Link>
+        </a>
         <button
           className="navbar-toggler position-absolute d-md-none collapsed"
           type="button"
@@ -38,34 +37,34 @@ const Navbar = (props) => {
         />
 
         <div className="d-flex align-items-center icon-display">
-          <Link
+          <a
             className="me-2"
-            to="/"
+            href="/"
             id="medium"
             role="button"
             aria-expanded="false"
           >
             <i className="fab fa-medium icon"></i>
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="me-2"
-            to="/"
+            href="/"
             id="twitter"
             role="button"
             aria-expanded="false"
           >
             <i className="fab fa-twitter icon"></i>
-          </Link>
+          </a>
 
-          <Link to="/" id="discord" role="button" aria-expanded="false">
+          <a href="/" id="discord" role="button" aria-expanded="false">
             <i className="fab fa-discord icon"></i>
-          </Link>
+          </a>
 
           {/* <!-- Avatar --> */}
           <div className="dropdown dropdown-menu-end dropdown-menu-lg-start p-3">
-            <Link
-              to="/"
+            <a
+              href="/"
               className="d-block link-dark text-decoration-none text-white"
               id="dropdownUser1"
               data-bs-toggle="dropdown"
@@ -79,34 +78,34 @@ const Navbar = (props) => {
                 className="rounded-circle me-2"
               />
               AE & Team <i className="fas fa-angle-down"></i>
-            </Link>
+            </a>
 
             <ul
               className="dropdown-menu dropdown-menu-end text-small"
               aria-labelledby="dropdownUser1"
             >
               <li>
-                <Link className="dropdown-item" to="/">
+                <a className="dropdown-item" href="/">
                   New project...
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className="dropdown-item" to="/">
+                <a className="dropdown-item" href="/">
                   Settings
-                </Link>
+                </a>
               </li>
               <li>
-                <Link className="dropdown-item" to="/">
+                <a className="dropdown-item" href="/">
                   Profile
-                </Link>
+                </a>
               </li>
               <li>
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <Link className="dropdown-item" to="/">
+                <a className="dropdown-item" href="/">
                   Sign out
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

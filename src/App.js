@@ -5,8 +5,6 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import BodySection from "./components/BodySection";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 const App = () => {
   const [holders, setHolders] = useState([]);
   const [tokens, setTokens] = useState([]);
@@ -61,10 +59,10 @@ const App = () => {
           data: parsedData.items[0].holdings.map((crypto) => crypto.quote_rate),
           borderColor: "#00506c",
 
-          color: '#fff',
+          color: "#fff",
           pointBackgroundColor: "rgb(242, 185, 44)",
           pointRadius: 5,
-          pointStyle: 'circle',
+          pointStyle: "circle",
           fill: false,
           scaleFontColor: "#fff",
 
@@ -80,16 +78,12 @@ const App = () => {
               {
                 gridLines: {
                   display: false,
-                  color: '#fff',
+                  color: "#fff",
                   scaleFontColor: "#fff",
-
-
                 },
               },
-
             ],
           },
-
         },
       ],
     });
@@ -102,20 +96,15 @@ const App = () => {
     const parsedData = await response.json();
     // console.log(parsedData.data.items);
     setQuoteData({
-      labels: parsedData.data.items.map((crypto) =>
-        crypto.gas_quote_rate
-      ),
+      labels: parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
       datasets: [
         {
           label: "Price in USD",
           data: parsedData.data.items.map((crypto) => crypto.gas_quote),
 
-          borderColor: [
-            'yellow',
-          ],
+          borderColor: ["yellow"],
           borderWidth: 1,
           scales: {
-
             yAxes: [
               {
                 ticks: {
@@ -132,23 +121,20 @@ const App = () => {
     });
   };
 
-
   const fetchDate = async () => {
     const response = await fetch(
       "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/transactions_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=10"
     );
     const parsedData = await response.json();
     setPieData({
-      labels: parsedData.data.items.map((crypto) =>
-        crypto.gas_quote_rate
-      ),
+      labels: parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
       datasets: [
         {
           label: "My First dataset",
           fill: true,
           lineTension: 0.3,
           backgroundColor: "rgba(225, 204,230, .3)",
-          data: parsedData.data.items.map((crypto) => crypto.gas_quote)
+          data: parsedData.data.items.map((crypto) => crypto.gas_quote),
         },
         {
           label: "My Second dataset",
@@ -156,11 +142,11 @@ const App = () => {
           lineTension: 0.3,
           backgroundColor: "rgba(184, 185, 210, .3)",
           borderColor: "yellow",
-          data: parsedData.data.items.map((crypto) => crypto.tx_offset)
+          data: parsedData.data.items.map((crypto) => crypto.tx_offset),
           // data: [5,9,45,76,23,45,23,12,45,65]
-        }
-      ]
-    })
+        },
+      ],
+    });
   };
 
   useEffect(() => {
@@ -170,28 +156,20 @@ const App = () => {
     fetchPrices();
     fetchQuote();
     fetchDate();
-
   }, []);
 
   return (
     <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Sidebar />
-            <BodySection
-              holders={holders}
-              tokens={tokens}
-              rates={rates}
-              chartData={chartData}
-              pieData={pieData}
-              quoteData={quoteData}
-
-            />
-          </Route>
-        </Switch>
-      </Router>
+      <Navbar />
+      <Sidebar />
+      <BodySection
+        holders={holders}
+        tokens={tokens}
+        rates={rates}
+        chartData={chartData}
+        pieData={pieData}
+        quoteData={quoteData}
+      />
     </>
   );
 };
