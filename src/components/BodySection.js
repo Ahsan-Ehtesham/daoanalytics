@@ -9,7 +9,7 @@ const BodySection = (props) => {
       <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3 mb-5 py-3">
         <div className="container mt-5">
           <div className="row">
-            {props.rates.map((rate) => {
+            {props.rates && props.rates.map((rate) => {
               return (
                 <div className="col-lg-3 col-sm-6" key={rate.id}>
                   <div className="card-box">
@@ -59,7 +59,7 @@ const BodySection = (props) => {
         <div className="row py-3">
           <h1 style={{ color: "white", textAlign: "center" }}>Top 10 DAO Token Holders</h1>
           <div className="col-sm-4 py-3">
-            {props.holders.map((holder) => {
+            {props.holders && props.holders.map((holder) => {
               return (
                 <div className="address-sec" key={holder.id}>
                   <div className="address-box">
@@ -92,7 +92,7 @@ const BodySection = (props) => {
                     <th scope="col" style={{ color: "#f2b92c" }}>price</th>
                   </tr>
                 </thead>
-                {props.tokens.map((token) => {
+                {props.tokens && props.tokens.map((token) => {
                   return (
                     <tbody key={token.id}>
                       <tr>

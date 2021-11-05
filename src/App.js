@@ -50,13 +50,13 @@ const App = () => {
     const parsedData = await response.json();
     // console.log(parsedData.items);
     setChartData({
-      labels: parsedData.items[0].holdings.map((crypto) =>
+      labels:parsedData.items[0].holdings &&  parsedData.items[0].holdings.map((crypto) =>
         new Date(crypto.timestamp).toLocaleDateString()
       ),
       datasets: [
         {
           label: "Price in USD",
-          data: parsedData.items[0].holdings.map((crypto) => crypto.quote_rate),
+          data:parsedData.items[0].holdings &&  parsedData.items[0].holdings.map((crypto) => crypto.quote_rate),
           borderColor: "#00506c",
 
           color: "#fff",
@@ -96,11 +96,11 @@ const App = () => {
     const parsedData = await response.json();
     // console.log(parsedData.data.items);
     setQuoteData({
-      labels: parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
+      labels: parsedData.data.items && parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
       datasets: [
         {
           label: "Price in USD",
-          data: parsedData.data.items.map((crypto) => crypto.gas_quote),
+          data: parsedData.data.items && parsedData.data.items.map((crypto) => crypto.gas_quote),
 
           borderColor: ["yellow"],
           borderWidth: 1,
@@ -127,14 +127,14 @@ const App = () => {
     );
     const parsedData = await response.json();
     setPieData({
-      labels: parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
+      labels:parsedData.data.items &&  parsedData.data.items.map((crypto) => crypto.gas_quote_rate),
       datasets: [
         {
           label: "My First dataset",
           fill: true,
           lineTension: 0.3,
           backgroundColor: "rgba(225, 204,230, .3)",
-          data: parsedData.data.items.map((crypto) => crypto.gas_quote),
+          data:parsedData.data.items &&  parsedData.data.items.map((crypto) => crypto.gas_quote),
         },
         {
           label: "My Second dataset",
@@ -142,7 +142,7 @@ const App = () => {
           lineTension: 0.3,
           backgroundColor: "rgba(184, 185, 210, .3)",
           borderColor: "yellow",
-          data: parsedData.data.items.map((crypto) => crypto.tx_offset),
+          data:parsedData.data.items &&  parsedData.data.items.map((crypto) => crypto.tx_offset),
           // data: [5,9,45,76,23,45,23,12,45,65]
         },
       ],
