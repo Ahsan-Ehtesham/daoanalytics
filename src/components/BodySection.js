@@ -1,98 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Line } from "react-chartjs-2";
-import axios from "axios";
-// import { Link} from "react-router-dom";
-// import PropTypes from "prop-types";
-// import { useHistory } from "react-router";
+import { Bar } from "react-chartjs-2";
 const BodySection = (props) => {
-  // const history = useHistory();
-  // history.go(0)
-  // useEffect(() => {
-  //   const script = document.createElement("script");
-  //   script.src = "/js/script.js";
-  //   script.async = true;
-  //   document.body.appendChild(script);
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
-  const [chartData, setChartData] = useState({});
-  const chart = () => {
-    let empSal = [];
-    let empAge = [];
-    axios
-      .get(
-        "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/portfolio_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599"
-      )
-      .then((res) => {
-        console.log(res);
-        for (const dataObj of res.data.items[0].holdings[0]) {
-          empSal.push(parseInt(dataObj.quote_rate));
-          empAge.push(parseInt(dataObj.timestamp));
-        }
-        setChartData({
-          labels: empSal,
-          datasets: [
-            {
-              label: "level of thiccness",
-              data: empAge,
-              backgroundColor: ["rgba(75, 192, 192, 0.6)"],
-              borderWidth: 4,
-            }
-          ]
-        });
-      })
-      .catch(err => {
-        console.log(err);
-      });
-    console.log(empSal, empAge);
-  };
 
-  useEffect(() => {
-    chart();
-  }, []);
 
   return (
     <div>
-      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3">
-        <div>
-          <Line
-            data={chartData}
-            options={{
-              responsive: true,
-              title: { text: "THICCNESS SCALE", display: true },
-              scales: {
-                yAxes: [
-                  {
-                    ticks: {
-                      autoSkip: true,
-                      maxTicksLimit: 10,
-                      beginAtZero: true,
-                    },
-                    gridLines: {
-                      display: false,
-                    },
-                  },
-                ],
-                xAxes: [
-                  {
-                    gridLines: {
-                      display: false,
-                    },
-                  },
-                ],
-              },
-            }}
-          />
-        </div>
-      </section>
-
-      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3">
-        <div className="container">
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-3 mb-5 py-3">
+        <div className="container mt-5">
           <div className="row">
             {props.rates.map((rate) => {
               return (
-                <div className="col-lg-3 col-sm-6">
+                <div className="col-lg-3 col-sm-6" key={rate.id}>
                   <div className="card-box">
                     <div className="inner">
                       <h3>{rate.quote_rate}</h3>
@@ -113,102 +32,99 @@ const BodySection = (props) => {
                 </div>
               );
             })}
-
-            {/* <div className="col-lg-3 col-sm-6">
-              <div className="card-box bg-green">
-                <div className="inner">
-                  <h3> ₹185358 </h3>
-                  <p> Today’s Collection </p>
-                </div>
-                <div className="icon">
-                  <i className="fa fa-money" aria-hidden="true"></i>
-                </div>
-                <a href="/" className="card-box-footer">
-                  View More <i className="fa fa-arrow-circle-right"></i>
-                </a>
-              </div>
-            </div> */}
-            {/* <div className="col-lg-3 col-sm-6">
-              <div className="card-box bg-orange">
-                <div className="inner">
-                  <h3> 5464 </h3>
-                  <p> New Admissions </p>
-                </div>
-                <div className="icon">
-                  <i className="fa fa-user-plus" aria-hidden="true"></i>
-                </div>
-                <a href="/" className="card-box-footer">
-                  View More <i className="fa fa-arrow-circle-right"></i>
-                </a>
-              </div>
-            </div> */}
-            {/* <div className="col-lg-3 col-sm-6 boxes">
-              <div className="card-box bg-red">
-                <div className="inner">
-                  <h3> 723 </h3>
-                  <p> Faculty Strength </p>
-                </div>
-                <div className="icon">
-                  <i className="fa fa-users"></i>
-                </div>
-                <a href="/" className="card-box-footer">
-                  View More <i className="fa fa-arrow-circle-right"></i>
-                </a>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
 
-      <section
-        className="col-md-9 ms-sm-auto col-lg-10 px-md-4"
-        id="tokenTable"
-      >
-        <div className="my-4 w-100" id="myChart"></div>
-        <h2>Top 10 Covalent Token Holders</h2>
-        <div className="table-responsive">
-          <table className="table table-striped table-sm table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Address</th>
-                <th scope="col">Ticker Symbol</th>
-                <th scope="col">Balance</th>
-                <th scope="col">Total Supply</th>
-              </tr>
-            </thead>
-            {props.holders.map((holder) => {
-              return (
-                <tbody>
-                  <tr>
-                    <td>{holder.address}</td>
-                    <td>{holder.contract_ticker_symbol}</td>
-                    <td>{holder.balance}</td>
-                    <td>{holder.total_supply}</td>
-                  </tr>
-                </tbody>
-              );
-            })}
-          </table>
+
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-3">
+        <div className="row">
+          <div className="col-sm-6">
+            <div>
+              <Line data={props.chartData} />
+            </div>
+          </div>
+          <div className="col-6">
+            <div>
+              <Bar data={props.quoteData} />
+            </div>
+          </div>
         </div>
       </section>
+
+
+      <section
+        className="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-2" id="tokenTable">
+        <div className="row py-3">
+          <h1 style={{ color: "white", textAlign: "center" }}>Top 10 DAO Token Holders</h1>
+          <div className="col-sm-4 py-3">
+            {props.holders.map((holder) => {
+              return (
+                <div className="address-sec" key={holder.id}>
+                  <div className="address-box">
+                    <div className="inner">
+                      <p className="address">
+                        {holder.address}
+                      </p>
+                      <h6>
+                        {holder.block_height}
+                      </h6>
+                    </div>
+                    <div className="icon">
+                      <i
+                        className="fas fa-wallet"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="col-sm-8">
+            <div className="table-responsive">
+              <table className="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col" style={{ color: "#f2b92c" }}>tx_hash</th>
+                    <th scope="col" style={{ color: "#f2b92c" }}>price</th>
+                  </tr>
+                </thead>
+                {props.tokens.map((token) => {
+                  return (
+                    <tbody key={token.id}>
+                      <tr>
+                        <td>
+                          <i
+                            className="fas fa-address-book" style={{ color: "rgb(242, 185, 44)", margin: "10px" }}
+                            aria-hidden="true"
+                          ></i>
+                          {token.tx_hash}</td>
+                        <td>{token.gas_price}</td>
+                      </tr>
+
+                    </tbody>
+                  );
+                })}
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <Line data={props.pieData} width={300} height={150} />
+      </section>
+
+      <footer class="page-footer font-small mt-5">
+        <div class="footer-copyright text-center py-3 ">
+          <a href="#! ">© 2021 - AE & Team </a>
+        </div>
+
+      </footer>
     </div>
   );
 };
-
-// BodySection.propTypes = {
-//   image: PropTypes.string,
-//   title: PropTypes.string,
-//   description: PropTypes.string,
-//   rate: PropTypes.number,
-//   price: PropTypes.number,
-// };
-
-// BodySection.defaultProps = {
-//   image: "",
-//   title: "Product Name",
-//   description: "This is the description",
-//   rate: 3.5,
-//   price: 22,
-// };
 
 export default BodySection;
