@@ -55,7 +55,7 @@ const BodySection = (props) => {
 
       <section
         className="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-2" id="tokenTable">
-        <div className="row py-4">
+        <div className="row py-3">
           <h1 style={{ color: "white", textAlign: "center" }}>Top 10 DAO Token Holders</h1>
           <div className="col-sm-4 py-3">
             {props.holders.map((holder) => {
