@@ -21,6 +21,7 @@ const App = () => {
 
     const response = await fetch(holderUrl);
     const parsedData = await response.json();
+
     setHolders(parsedData.data.items);
   };
 
@@ -59,19 +60,19 @@ const App = () => {
           label: "Price in USD",
           data: parsedData.items[0].holdings.map((crypto) => crypto.quote_rate),
           borderColor: "#00506c",
+
           color: '#fff',
           pointBackgroundColor: "rgb(242, 185, 44)",
           pointRadius: 5,
           pointStyle: 'circle',
           fill: false,
           scaleFontColor: "#fff",
+
           scales: {
             xAxes: [
               {
                 gridLines: {
                   display: true,
-                  color: '#fff',
-                  scaleFontColor: "#fff",
                 },
               },
             ],
@@ -88,6 +89,7 @@ const App = () => {
 
             ],
           },
+
         },
       ],
     });
@@ -168,6 +170,7 @@ const App = () => {
     fetchPrices();
     fetchQuote();
     fetchDate();
+
   }, []);
 
   return (
@@ -184,6 +187,7 @@ const App = () => {
               chartData={chartData}
               pieData={pieData}
               quoteData={quoteData}
+
             />
           </Route>
         </Switch>

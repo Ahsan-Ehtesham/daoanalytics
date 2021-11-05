@@ -32,6 +32,7 @@ const BodySection = (props) => {
                 </div>
               );
             })}
+
           </div>
         </div>
       </section>
@@ -48,10 +49,10 @@ const BodySection = (props) => {
             <div>
               <Bar data={props.quoteData} />
             </div>
+
           </div>
         </div>
       </section>
-
 
       <section
         className="col-md-9 ms-sm-auto col-lg-10 px-md-4 py-2" id="tokenTable">
@@ -78,6 +79,7 @@ const BodySection = (props) => {
                     </div>
                   </div>
                 </div>
+
               );
             })}
           </div>

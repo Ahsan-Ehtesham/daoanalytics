@@ -9,6 +9,7 @@
     "axios": "^0.24.0",
     "chart.js": "^3.6.0",
     "mdbreact": "^5.1.0",
+
     "node-modules": "^1.0.1",
     "react": "^17.0.2",
     "react-chartjs-2": "^3.3.0",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.1"
   }
 }
