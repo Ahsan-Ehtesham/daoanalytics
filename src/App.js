@@ -8,57 +8,166 @@ import BodySection from "./components/BodySection";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
-  const [products, setProducts] = useState([]);
+  const [holders, setHolders] = useState([]);
+  const [tokens, setTokens] = useState([]);
+  const [rates, setRates] = useState([]);
+  const [chartData, setChartData] = useState({});
+  const [pieData, setPieData] = useState({});
+  const [quoteData, setQuoteData] = useState({});
 
-  //Add btn function
-  // const onAdd = (product) => {
-  //   const exist = cartItems.find((x) => x.id === product.id);
-  //   if (exist) {
-  //     setCartItems(
-  //       cartItems.map((x) =>
-  //         x.id === product.id ? { ...exist, qty: exist.qty + 1 } : x
-  //       )
-  //     );
-  //   } else {
-  //     setCartItems([...cartItems, { ...product, qty: 1 }]);
-  //   }
-  // };
+  const getTokenHolders = async () => {
+    const holderUrl =
+      "https://api.covalenthq.com/v1/1/tokens/0xD417144312DbF50465b1C641d016962017Ef6240/token_holders/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=10";
 
-  // Minus btn function
-  // const onRemove = (product) => {
-  //   const exist = cartItems.find((x) => x.id === product.id);
-  //   if (exist.qty === 1) {
-  //     setCartItems(cartItems.filter((x) => x.id !== product.id));
-  //   } else {
-  //     setCartItems(
-  //       cartItems.map((x) =>
-  //         x.id === product.id ? { ...exist, qty: exist.qty - 1 } : x
-  //       )
-  //     );
-  //   }
-  // };
-
-  const getProductRequest = async () => {
-    const productUrl = "https://fakestoreapi.com/products";
-
-    const response = await fetch(productUrl);
+    const response = await fetch(holderUrl);
     const parsedData = await response.json();
-    console.log(parsedData);
-    setProducts(parsedData);
+    setHolders(parsedData.data.items);
   };
 
-  // const getSalesRequest = async () => {
-  //   const salesUrl = "https://random-data-api.com/api/users/random_user?size=5";
+  const getToken = async () => {
+    const tokenUrl =
+      "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/transactions_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=11";
 
-  //   const response = await fetch(salesUrl);
-  //   const parsedData = await response.json();
-  //   console.log(parsedData);
-  //   setSales(parsedData);
-  // };
+    const response = await fetch(tokenUrl);
+    const parsedData = await response.json();
+    console.log(parsedData.items);
+    setTokens(parsedData.data.items);
+  };
+
+  const getRateRequest = async () => {
+    const rateUrl =
+      "https://api.covalenthq.com/v1/pricing/tickers/?tickers=usd%2Ceth%2Cbnb%2Cbtc&key=ckey_3ef3cefb5f2447cabfdc7d26599";
+
+    const response = await fetch(rateUrl);
+    const parsedData = await response.json();
+    // console.log(parsedData.data.items);
+    setRates(parsedData.data.items);
+  };
+
+  const fetchPrices = async () => {
+    const response = await fetch(
+      "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/portfolio_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599"
+    );
+    const parsedData = await response.json();
+    // console.log(parsedData.items);
+    setChartData({
+      labels: parsedData.items[0].holdings.map((crypto) =>
+        new Date(crypto.timestamp).toLocaleDateString()
+      ),
+      datasets: [
+        {
+          label: "Price in USD",
+          data: parsedData.items[0].holdings.map((crypto) => crypto.quote_rate),
+          borderColor: "#00506c",
+          color: '#fff',
+          pointBackgroundColor: "rgb(242, 185, 44)",
+          pointRadius: 5,
+          pointStyle: 'circle',
+          fill: false,
+          scaleFontColor: "#fff",
+          scales: {
+            xAxes: [
+              {
+                gridLines: {
+                  display: true,
+                  color: '#fff',
+                  scaleFontColor: "#fff",
+                },
+              },
+            ],
+            yAxes: [
+              {
+                gridLines: {
+                  display: false,
+                  color: '#fff',
+                  scaleFontColor: "#fff",
+
+
+                },
+              },
+
+            ],
+          },
+        },
+      ],
+    });
+  };
+
+  const fetchQuote = async () => {
+    const response = await fetch(
+      "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/transactions_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=10"
+    );
+    const parsedData = await response.json();
+    // console.log(parsedData.data.items);
+    setQuoteData({
+      labels: parsedData.data.items.map((crypto) =>
+        crypto.gas_quote_rate
+      ),
+      datasets: [
+        {
+          label: "Price in USD",
+          data: parsedData.data.items.map((crypto) => crypto.gas_quote),
+
+          borderColor: [
+            'yellow',
+          ],
+          borderWidth: 1,
+          scales: {
+
+            yAxes: [
+              {
+                ticks: {
+                  fontColor: "green",
+                  fontSize: 18,
+                  // beginAtZero: true,
+                },
+              },
+            ],
+          },
+          backgroundColor: "rgba(184, 185, 210, .3)",
+        },
+      ],
+    });
+  };
+
+
+  const fetchDate = async () => {
+    const response = await fetch(
+      "https://api.covalenthq.com/v1/1/address/0x0f51bb10119727a7e5ea3538074fb341f56b09ad/transactions_v2/?key=ckey_3ef3cefb5f2447cabfdc7d26599&page-size=10"
+    );
+    const parsedData = await response.json();
+    setPieData({
+      labels: parsedData.data.items.map((crypto) =>
+        crypto.gas_quote_rate
+      ),
+      datasets: [
+        {
+          label: "My First dataset",
+          fill: true,
+          lineTension: 0.3,
+          backgroundColor: "rgba(225, 204,230, .3)",
+          data: parsedData.data.items.map((crypto) => crypto.gas_quote)
+        },
+        {
+          label: "My Second dataset",
+          fill: true,
+          lineTension: 0.3,
+          backgroundColor: "rgba(184, 185, 210, .3)",
+          borderColor: "yellow",
+          data: parsedData.data.items.map((crypto) => crypto.tx_offset)
+          // data: [5,9,45,76,23,45,23,12,45,65]
+        }
+      ]
+    })
+  };
 
   useEffect(() => {
-    getProductRequest();
-    // getSalesRequest();
+    getTokenHolders();
+    getToken();
+    getRateRequest();
+    fetchPrices();
+    fetchQuote();
+    fetchDate();
   }, []);
 
   return (
@@ -66,9 +175,16 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Sidebar />
-            <BodySection products={products} />
+            <BodySection
+              holders={holders}
+              tokens={tokens}
+              rates={rates}
+              chartData={chartData}
+              pieData={pieData}
+              quoteData={quoteData}
+            />
           </Route>
         </Switch>
       </Router>
