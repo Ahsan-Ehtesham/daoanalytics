@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Ahsan-Ehtesham.github.io/daoanalytics",
   "name": "daoanalytics",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +9,8 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.24.0",
     "chart.js": "^3.6.0",
+    "gh-pages": "^3.2.3",
     "mdbreact": "^5.1.0",
-
     "node-modules": "^1.0.1",
     "react": "^17.0.2",
     "react-chartjs-2": "^3.3.0",
@@ -19,6 +20,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
